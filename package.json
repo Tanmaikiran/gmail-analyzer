@@ -1,0 +1,16 @@
+{
+  "name": "gmail-analyzer",
+  "version": "1.0.0",
+  "description": "Email keyword scraper and metadata analyzer for B.Tech project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Battu Tanmai Kiran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^126.0.0"
+  }
+}
