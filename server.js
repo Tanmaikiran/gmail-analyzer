@@ -7,8 +7,7 @@ const PORT = process.env.PORT || 3000;
 // These will be pulled from Render's secret settings later
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const REDIRECT_URI = "https://tanmai-gmail-analyzer.onrender.com/auth/google/callback";
-
+const REDIRECT_URI = "https://gmail-analyzer-1-mqcc.onrender.com/auth/google/callback";
 const oauth2Client = new google.auth.OAuth2(
     CLIENT_ID,
     CLIENT_SECRET,
